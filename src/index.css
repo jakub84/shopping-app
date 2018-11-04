@@ -21,6 +21,9 @@ div#app {
 }
 
 
+
+
+
 div#app .header {
     /* background-color: rgb(122, 56, 184); */
     width: 100%;
@@ -200,4 +203,23 @@ div#app button.random-button.delete-all:disabled {
     background-color: rgba(0, 0, 0, 0.1);
     color: rgba(0, 0, 0, 0.2);
     cursor: inherit;
+}
+
+
+@media only screen and (max-width: 500px) {
+    div#app {
+        text-align: center;
+        border: none;
+        border-radius: 5px;
+        padding: 35px;
+        width: 100%;
+        margin: 50px auto;
+    }
+    div#app .header > h1 {
+        font-size: 30px;
+        color: rgb(122, 56, 184);
+        font-family: 'Lobster', sans-serif;
+        margin: 0;
+        
+    }
 }
